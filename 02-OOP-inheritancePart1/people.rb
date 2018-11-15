@@ -29,3 +29,8 @@ class Instructor < Person
   end
 
 end
+
+# When the learn method was called on the Instructor instance,
+# the undefined method error was triggered because the learn mehod
+# was set inside the student class only and Instructor inherance only from the Person class
+# The same thing happends with the student instance calling the teach method
